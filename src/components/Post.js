@@ -6,7 +6,7 @@ export default class Post extends Component {
         return (
             <div className="post">
                 <User
-                    src=""
+                    src={this.props.src}
                     alt="prince"
                     name="Harry The Prince"/>
                 <img src={this.props.src} alt={this.props.alt} />
